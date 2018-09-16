@@ -1,0 +1,106 @@
+body{
+
+}
+
+h1 {
+    text-align: center;
+    font-family:  Consolas;
+    color: green;
+}
+
+h1 #addEmployee{
+    float: left;
+}
+
+h1 #addCustomers{
+    float: left;
+}
+
+.nav{
+    font-family:  Consolas;
+    font-size: larger;
+    color: green;
+}
+
+ul.nav a:hover { background-color: transparent !important; }
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+}
+
+#rowAudio{
+    padding-top: 5%;
+}
+
+#addForm{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.big{
+    padding-top: 8%;
+    font-size: 4.2em;
+    color: #9b0055;
+    font-style: italic;
+    text-shadow: 7px 5px 9px rgba(150, 150, 150, 0.66)
+}
+
+#navMeni{
+    display: inline-block;
+    margin-left: 37%;
+    border: 4px solid #9b0055;
+    -moz-border-radius: 25px 10px / 10px 25px;
+    border-radius: 40px 25px / 24px 32px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.calc{
+    text-align: center;
+    align-content: center;
+    border: #0f0f0f;
+
+
+}
+
+
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+    padding: 15px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    z-index: 1;
+}
+
+.container-login100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.container-login100 url{
+    width: 10%;
+    height: 10%;
+}
+
+.table {
+    color: #0f0f0f;
+}
