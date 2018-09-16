@@ -5,13 +5,9 @@ The goal of this project is to make web application with CRUD operations.
 The application uses Mustache logic-less templates for html pages, Clostache is Mustache for Clojure. Ring is used as a basis for this web application.  It uses Compojure as routing library for Ring. 
 Application should allow a user to create a new employee, update, delete and read all the employees from database. It should also allow for creation of a new project, update, delete and read all the projects from database.
 
-## Usage
-
-FIXME
-
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
